@@ -33,5 +33,6 @@ Content
 Media
 
 Acknowledgements
-- I received inspiration for this project from Pinterest
-Pinterest Link: 
+- I received inspiration for this project from the following website
+
+1. Link: https://www.pinterest.com/pin/2462974791941574/
