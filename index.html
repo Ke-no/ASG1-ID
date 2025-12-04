@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yorushika</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="normalize/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hubballi">
 
     <div class="header">
         <div class="contents">
-            <img class="logo" src="Image/logo.jpeg"></img>
-            <a href="active" href="home">HOME</a>
+            <a href="index.html"><img class="logo" src="Assets/logo.jpeg"></img></a>
+            <a href="index.html" href="home">HOME</a>
             <a href="active" href="news">NEWS</a>
-            <a href="active" href="goods">GOODS</a>
+            <a href="goods.html" href="goods">GOODS</a>
             <a href="active" href="live">LIVE</a>
         </div>
     </div>
 </head>
 <body>
     <div class="container1">
-        <img class="banner" src="Image/banner.png">
+        <img class="banner" src="Assets/banner.png">
         <div class="centered">
             <div>LIVE PERFORMANCE COMING SOON!</div>
             <button class="button">VIEW MORE</button>
@@ -46,13 +47,11 @@
             <div class="anitxt">NEW ALBUM</div>
         </div>
     </div>
-<p>&nbsp;</p>
-<h2 class="flex-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Released Albums!</h2>
 
     <section class="container2">
         <div class="flex-item">
             <div class="flex-img">
-            <img class="fleximage" src="Image/4.PNG">
+            <img class="fleximage" src="Assets/4.PNG">
         </div>
         <div class="flex-info">
             <h4>2024.07.13 PlayList</h4>
@@ -61,7 +60,7 @@
         </div>
          <div class="flex-item">
             <div class="flex-img">
-            <img class="fleximage" src="Image/3.PNG">
+            <img class="fleximage" src="Assets/3.PNG">
         </div>
         <div class="flex-info">
             <h4>2024.10.07 PlayList</h4>
@@ -70,7 +69,7 @@
         </div>
          <div class="flex-item">
             <div class="flex-img">
-            <img class="fleximage" src="Image/2.PNG">
+            <img class="fleximage" src="Assets/2.PNG">
         </div>
         <div class="flex-info">
             <h4>2024.05.29 PlayList</h4>
@@ -79,47 +78,92 @@
         </div>
          <div class="flex-item">
             <div class="flex-img">
-            <img class="fleximage" src="Image/5.PNG">
+            <img class="fleximage" src="Assets/5.PNG">
         </div>
         <div class="flex-info">
-            <h4>2024.09.18 PlayList</h4>
-            <p>ヨルシカ - 月と猫のダンス</p>
+            <h4>2023.10.13 PlayList</h4>
+            <p>ヨルシカ - 月光浴</p>
         </div>
         </div>
     </section>
-    <selection class="info-container">
-        <div class="split">
-            <img src="Image/1.PNG">
+
+    <section class="info-container">
+        <div class="rows">
+            <div class="left">
+                <video width="600" height="600" autoplay loop>
+                    <source src="Assets/1.mp4" type="video/mp4">
+                </video>
+            </div>
+             <div class="right">
+                <h2 class="flex-info extend">About Us</h2>
+                <p>In 2017, a Japanese rock duo was formed named Yorushika.<br> The band includes a Vocaloid producer, N-buna and a vocalist, Suis.<br> They are recognized for their juxtaposition of passionate and upbeat production,<br> and heavy lyrical content fused with instrumentation. The band ideas often come from works of literature, human emotion as well as love.</p>
+                <h6 class="flex-info">Please check us out! - Yorushika</h6>
+                <a href="https://www.youtube.com/@nbuna"><button class="button">VIEW CHANNEL</button></a>
+            </div>
         </div>
-        <div class="split">
-            <h2>title</h2>
-            <p>text</p>
+
+
+    </section>
+    <!--
+     <div class="container1">
+        <img class="banner" src="Image/10.png">
+        <video width="2000" autoplay loop>
+                <source src="Image/2.mp4" type="video/mp4">
+        </video>
+        <div class="centered">
+            <div>NEW MERCHANDISE IS HERE!</div>
+            <button class="button">SHOP NOW!</button>
         </div>
-    </selection>
-    <selection class="info-container">
-        <div class="split">
-            <img src="Image/1.PNG">
-        </div>
-        <div class="split">
-            <h2>title</h2>
-            <p>text</p>
-        </div>
-    </selection>
-    <selection class="info-container">
-        <div class="split">
-            <img src="Image/1.PNG">
-        </div>
-        <div class="split">
-            <h2>title</h2>
-            <p>text</p>
-        </div>
-    </selection>
+    </div>-->
+
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEW RELEASE MERCHANDISE</h1>
+
+    <div class="container3"> <!--Everything-->
+
+            <div class="product-column"> <!--Product section-->
+                <h2 class="flex-info"><mark>Sticker Pack<br>ステッカーパック</mark></h2>
+                <img class="products" src="Assets/product1.jpg">
+                <div class="pricencart"> <!--Currency & Button-->
+                    <p>$15.00</p>
+                    <button class="button">ADD CART</button>
+                </div> <!--Currency & Button-->
+                <p> &nbsp;</p>   
+            </div> <!--Product section-->
+
+            <div class="product-column"> <!--Product section-->
+                <h2 class="flex-info"><mark>Hairpin Set<br>ヘアピンセット</mark></h2>
+                <img class="products" src="Assets/product2.jpg">
+                <div class="pricencart"> <!--Currency & Button-->
+                    <p>$20.00</p>
+                    <button class="button">ADD CART</button>
+                </div> <!--Currency & Button-->
+                <p> &nbsp;</p>   
+            </div> <!--Product section-->
+
+            <div class="product-column"> <!--Product section-->
+                <h2 class="flex-info"><mark>Mirror Keychain<br>ミラーキーホルダー</mark></h2>
+                <img class="products" src="Assets/product3.jpg">
+                <div class="pricencart"> <!--Currency & Button-->
+                    <p>$30.00</p>
+                    <button class="button">ADD CART</button>
+                </div> <!--Currency & Button-->
+                <p> &nbsp;</p>   
+            </div> <!--Product section-->
+
+
+
+
+
+</div> <!--Everything-->
+
+
+
+<p>&nbsp;</p>
+
     <div class="footer">
         <p>YORUSHIKA All Rights Reserved.</p>
+        <img class="logo" src="Assets/asset2.png"></img>
     </div>
-
-
-
     
 </body>
 </html>
