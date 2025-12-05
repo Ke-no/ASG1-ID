@@ -92,6 +92,17 @@ body {
     overflow-x: auto;
 }
 
+.carouselpost {
+    background-color: rgba(150, 2, 2, 0.757);
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.carouselpost::-webkit-scrollbar {
+    display: none;
+}
+
 .carousel::-webkit-scrollbar {
     display: none;
 }
@@ -197,12 +208,19 @@ body {
     height: auto;
 }
 
+.left img {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .right {
-    text-align: left;
+    text-align: center;
     padding: 10px 50px;
     box-sizing: border-box;
 }
-
 
 /*Mobile*/
 @media (max-width: 768px) {
@@ -249,6 +267,7 @@ mark {
 
 .fadeup {
     animation: fade-up 0.5s;
+    animation-timeline: view();
 }
 
 .product-column {
@@ -282,7 +301,7 @@ mark {
 
 @keyframes fade-up {
     0% {
-        opacity: 0;
+        opacity: 10;
         transform: translateY(40px) scale(0.8);
     }
 
@@ -290,4 +309,31 @@ mark {
         opacity: 1;
         transform: translateY(0px) scale(1);
     }
+}
+
+/* live page*/
+
+.liveinfo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.liverows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.rightlive-txt {
+    text-align: center;
+    padding: 10px 50px;
+    box-sizing: border-box;   
+}
+
+.products {
+    max-width: 100%;
+    height: auto;
 }
