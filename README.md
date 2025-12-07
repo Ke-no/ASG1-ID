@@ -54,6 +54,9 @@ Features Left to Implement
 - Figma
   ~ Figma is used for the creation of the wireframe.
 
+- Canva
+  ~ Creation of About Us mp4 video
+
 # Testing
 1. Home:
    
