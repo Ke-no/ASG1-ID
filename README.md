@@ -12,7 +12,7 @@ Existing Features
   1. Header for navigation of pages.
   2. Banner that attract viewers attention with interactive button.
   3. Carousell animation text.
-  4. Playlist (4 boxes in rows) able to listen to songs by pressing into the singles.
+  4. Playlist (4 boxes in row) able to listen to songs by pressing into the singles.
   5. About us section, button links to Band's Youtube Page. 
   6. Small section of the newly released merchandise for pre-orders. Clicking on the "PRE-ORDER" button will navigate users to the form page and let he/she fill in his/her details so they can notify them when the merchandise is on sale.
   7. Footer about copyrights.
