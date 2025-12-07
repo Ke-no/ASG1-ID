@@ -14,21 +14,21 @@ Existing Features
   3. Carousell animation text.
   4. Playlist (4 boxes in rows) able to listen to songs by pressing into the singles.
   5. About us section, button links to Band's Youtube Page. 
-  6. Small section of the newly released merchandise for pre-orders. Clicking on the pre-order button will navigate you to a form page and let you fill in your details so they can notify users when merchandise is on sale.
+  6. Small section of the newly released merchandise for pre-orders. Clicking on the "PRE-ORDER" button will navigate users to the form page and let he/she fill in his/her details so they can notify them when the merchandise is on sale.
   7. Footer about copyrights.
 
 - Goods page
   1. Header for navigation of pages.
   2. Banner with illustrations.
   3. Carousell animation text.
-  4. Products section. Clicking on the pre-order button will navigate you to a form page and let you fill in your details so they can notify users when merchandise is on sale.
+  4. Products section. Clicking on the "PRE-ORDER" button will navigate users to the form page and let he/she fill in his/her details so they can notify them when the merchandise is on sale.
   5. Footer about copyrights.
 
 - Live page
  1. Header for navigation of pages.
  2. animated banner with interactive button.
  3. Carousell animation text.
- 4. Purchasing of live tour tickets section. All of the tickets are sold, so the sold out button is shown. When clicked a alert will appear notifying the user that the tickets were sold out.
+ 4. Purchasing of live tour tickets section. All of the tickets are sold, so the "SOLD OUT" button is shown. When clicked, a alert will appear notifying the user that the tickets were sold out.
  5. Footer about copyrights.
 
 - News page
@@ -43,13 +43,13 @@ Features Left to Implement
 
 # Technologies Used
 - HTML
-  ~ The project uses HTML for index, goods, live, news,and form page.
+  ~ The project uses HTML for index, goods, live, news and form page.
 
 - CSS
   ~ The project uses normalize.css for the stablization of codes as it works as a canvas and style.css is used for the arangement, colors and animation of the pages.
 
 - JavaScript
-  ~ script.js is used for interactions of the form's cross and "NOTIFY ME" buttons.
+  ~ script.js is used for interactions of the form's cross (x) and "NOTIFY ME" buttons.
 
 - Figma
   ~ Figma is used for the creation of the wireframe.
@@ -66,7 +66,7 @@ Features Left to Implement
   
    ii. Animation of the text should be moving endlessly.
 
-   iii. Animation of the text for the singles, about us (not the information) and the products name should be moving with a bar blinking.
+   iii. Animation of the text for the singles, about us (not the information) and the products name should be moving with cursor blinking.
 
    iv. Clicking one of the singles will bring you to a page where you can listen to the corresponding song.
 
@@ -85,7 +85,7 @@ Features Left to Implement
   
    ii. Animation of the text should be moving endlessly.
 
-   iii.Animation of the text for the products name should be moving with a bar blinking.
+   iii.Animation of the text for the products name should be moving with cursor blinking.
 
    iv. Clicking the "PRE-ORDER" button will bring you to the form page where users need to input name and email.
    
@@ -102,7 +102,7 @@ Features Left to Implement
   
    ii. Animation of the text should be moving endlessly.
 
-   iii. Animation of the live description should be moving with a bar blinking.
+   iii. Animation of the live description should be moving with cursor blinking.
 
    iv. "FIND OUT MORE" button will navigate you to the news page.
 
@@ -119,7 +119,7 @@ Features Left to Implement
   
    ii. Animation of the text should be moving endless.
 
-   iii. Animation of the text for the date and name should be moving with a bar blinking.
+   iii. Animation of the text for the date and name should be moving with cursor blinking.
 
 5. Form:
    
@@ -127,7 +127,7 @@ Features Left to Implement
 
    ii: input box for name and email
 
-   iii: "NOTIFY ME" button that will alert the user upon submitting the form. Afterwards, it will bring the user to the goods page so he/she can view more products.
+   iii: "NOTIFY ME" button that will alert the user upon submitting the form. Afterwards, it will bring the user back to the page so he/she can continue browsing.
    
    iv: If user didnt enter name and/or email properly and clicked the "NOTIFY ME" button, user will receive a error message.
 
@@ -150,3 +150,11 @@ Acknowledgements
 1. https://www.pinterest.com/pin/2462974791941574/
 2. https://www.pinterest.com/pin/3870349674702365/
 
+Reference
+- I have used the following sources for reference
+  1. https://www.w3schools.com/
+  2. https://www.geeksforgeeks.org/
+  3. https://www.youtube.com/watch?v=yefgBA1CecI
+  4. https://www.youtube.com/watch?v=KD1Yo8a_Qis
+  5. https://www.youtube.com/watch?v=In0nB0ABaUk
+  6. https://www.youtube.com/watch?v=p1GmFCGuVjw
