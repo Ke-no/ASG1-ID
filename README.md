@@ -58,59 +58,77 @@ Features Left to Implement
 1. Home:
    
    i. Header has a navigation bar:
-   1. Logo will bring you to the home page.
-   2. HOME will bring the user to the home page.
-   3. GOODS will bring you to the goods page.
-   4. LIVE will bring you to the live page.
-   5. NEWS will bring you to the news page.
+   - Logo will bring you to the home page.
+   - HOME will bring the user to the home page.
+   - GOODS will bring you to the goods page.
+   - LIVE will bring you to the live page.
+   - NEWS will bring you to the news page.
+  
    ii. Animation of the text should be moving endlessly.
+
    iii. Animation of the text for the singles, about us (not the information) and the products name should be moving with a bar blinking.
+
    iv. Clicking one of the singles will bring you to a page where you can listen to the corresponding song.
+
    v. Clicking the "VIEW CHANNEL" button will bring you to the band's YouTube channel.
+
    vi. Clicking the "PRE-ORDER" button will bring you to the form page where users need to input name and email.
 
 2. Goods:
    
    i. Header has a navigation bar:
-   1. Logo will bring you to the home page.
-   2. HOME will bring the user to the home page.
-   3. GOODS will bring you to the goods page.
-   4. LIVE will bring you to the live page.
-   5. NEWS will bring you to the news page.
+   - Logo will bring you to the home page.
+   - HOME will bring the user to the home page.
+   - GOODS will bring you to the goods page.
+   - LIVE will bring you to the live page.
+   - NEWS will bring you to the news page.
+  
    ii. Animation of the text should be moving endlessly.
+
    iii.Animation of the text for the products name should be moving with a bar blinking.
+
    iv. Clicking the "PRE-ORDER" button will bring you to the form page where users need to input name and email.
+   
    v. Clicking the "SOLD OUT" button will receive a alert notifying the user that the product is sold out.
    
 3. Live:
    
    i. Header has a navigation bar:
-   1. Logo will bring you to the home page.
-   2. HOME will bring the user to the home page.
-   3. GOODS will bring you to the goods page.
-   4. LIVE will bring you to the live page.
-   5. NEWS will bring you to the news page.
+   - Logo will bring you to the home page.
+   - HOME will bring the user to the home page.
+   - GOODS will bring you to the goods page.
+   - LIVE will bring you to the live page.
+   - NEWS will bring you to the news page.
+  
    ii. Animation of the text should be moving endlessly.
+
    iii. Animation of the live description should be moving with a bar blinking.
+
    iv. "FIND OUT MORE" button will navigate you to the news page.
+
    v. Clicking the "SOLD OUT" button will receive a alert notifying the user that the product is sold out.
 
 4. News:
    
    i. Header has a navigation bar:
-   1. Logo will bring you to the home page.
-   2. HOME will bring the user to the home page.
-   3. GOODS will bring you to the goods page.
-   4. LIVE will bring you to the live page.
-   5. NEWS will bring you to the news page.
+   - Logo will bring you to the home page.
+   - HOME will bring the user to the home page.
+   - GOODS will bring you to the goods page.
+   - LIVE will bring you to the live page.
+   - NEWS will bring you to the news page.
+  
    ii. Animation of the text should be moving endless.
+
    iii. Animation of the text for the date and name should be moving with a bar blinking.
 
 5. Form:
    
    i: form page can be found through the "PRE-ORDER" buttons by clicking into them.
+
    ii: input box for name and email
+
    iii: "NOTIFY ME" button that will alert the user upon submitting the form. Afterwards, it will bring the user to the goods page so he/she can view more products.
+   
    iv: If user didnt enter name and/or email properly and clicked the "NOTIFY ME" button, user will receive a error message.
 
 *All Pages should be interactive and can be stretch to different sizes*
