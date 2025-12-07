@@ -3,11 +3,11 @@
     position: relative;
     z-index: 1;
     background-color: white;
-    box-shadow: 0px 5px 30px #ffe59d;
+    box-shadow: 0px 5px 30px #ffe18e;
 }
 
 .logo {
-    max-height: 60px;
+    max-width: 200px;
 }
 
 .contents {
@@ -19,18 +19,30 @@
 }
 
 a {
-    color: black;
+    color: rgb(16, 0, 104);
     text-decoration: none;
+}
+
+a:hover {
+    color: #ffe18e;
 }
 
 body {
     font-family: "Hubballi", sans-serif;
+    color: rgb(16, 0, 104);
     margin:0;
     overflow-x: hidden;
 }
 
 .banner {
     width: 100%;
+    display: flex;
+    justify-self: center;
+}
+
+.newsbanner {
+    width: 100%;
+    height: 350px;
     display: flex;
     justify-self: center;
 }
@@ -56,7 +68,7 @@ body {
 .button {
     font-size: 10px;
     background-color: rgba(0, 7, 198, 0.758);
-    color: white;
+    color: aliceblue;
     border: none;
     height: 30px;
     cursor: pointer;
@@ -66,7 +78,7 @@ body {
 .soldbutton {
     font-size: 10px;
     background-color: rgba(198, 0, 10, 0.758);
-    color: white;
+    color: aliceblue;
     border: none;
     height: 30px;
     cursor: pointer;
@@ -74,7 +86,7 @@ body {
 }
 
 .button:hover {
-    background-color: white;
+    background-color: aliceblue;
     color: rgba(0, 7, 198, 0.757);
 }
 
@@ -85,8 +97,7 @@ body {
 .carousel {
     font-style: italic;
     background-color: rgba(0, 7, 198, 0.757);
-    color: white;
-    /*width: auto;*/
+    color: aliceblue;
     height: 30px;
     display: flex;
     overflow-x: auto;
@@ -132,11 +143,6 @@ body {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
-    /*gap: 5px;*/
-}
-
-.header2 {
-    background-color: #ededed;
 }
 
 .flex-item {
@@ -174,23 +180,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*align-items: center;
-    align-content: center;
-    justify-content: center;*/
     width: 100%;
     padding: 20px;
 }
 
-.info-containerbg {
+.info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*align-items: center;
-    align-content: center;
-    justify-content: center;*/
     width: 100%;
     padding: 20px;
-    /*background-color: rgba(0, 7, 198, 0.757);*/
+}
+
+.info-containertxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .rows {
@@ -241,12 +247,12 @@ body {
 }
 
 .extend {
-    color: white;
+    color: aliceblue;
     background-color: rgba(0, 7, 198, 0.757);
 }
 
 mark {
-    color: white;
+    color: aliceblue;
     background-color: rgba(0, 7, 198, 0.757);  
 }
 
@@ -255,7 +261,6 @@ mark {
     justify-content: center;
     box-sizing: border-box;
 }
-
 
 .container3 {
     display: flex;
@@ -288,7 +293,6 @@ mark {
     font-weight: bold;
 }
 
-
 .footer {
     padding: 20px 10px;
     position: relative;
@@ -310,8 +314,6 @@ mark {
         transform: translateY(0px) scale(1);
     }
 }
-
-/* live page*/
 
 .liveinfo-container {
     display: flex;
@@ -337,3 +339,73 @@ mark {
     max-width: 100%;
     height: auto;
 }
+
+.bodyform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url('/Assets/form_bg.jpg') no-repeat;
+}
+
+.cross {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 20px;
+    right: 20px;
+    color:rgba(0, 7, 198, 0.757);
+    font-weight: bold;
+}
+
+.cardbg {
+    width: 200px;
+    padding: 30px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(176, 176, 176, 0.646)
+}
+
+.cardinfo h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0, 7, 198, 0.757);
+}
+
+.card-input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    border-bottom: 1px solid rgba(0, 7, 198, 0.757);
+}
+
+.card-input label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    font-size: 1em;
+    color:rgba(0, 7, 198, 0.757);
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.card-input input:focus ~ label,
+.card-input input:not(:placeholder-shown) ~ label {
+    top: -5px;
+}
+
+.card-input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgba(0, 7, 198, 0.757);
+    font-size: 1em;
+    font-weight: 600;
+}
+

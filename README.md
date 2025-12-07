@@ -15,20 +15,25 @@ Features Left to Implement
 - Figma
 
 # Testing
-1. Home Page:
+1. Home:
    i.
 
-2. News:
+2. Goods:
    i.
    
-3. Goods:
+3. Live:
    i.
 
-4. Live:
+4. News:
    i.
 
 # Credits
 Content
+
+- Image taken from the following links
+1. https://www.reddit.com/r/Yorushika/comments/hj1so5/special_thank_you_to_uhirofumibaka_for_the_new/
+2. https://www.pinterest.com/pin/633387443389265/
+3. https://x.com/nekofood_lima/status/1656856723506991106/photo/1
 
 Media
 
@@ -37,3 +42,4 @@ Acknowledgements
 
 1. Link: https://www.pinterest.com/pin/2462974791941574/
 2. Link: https://www.pinterest.com/pin/3870349674702365/
+

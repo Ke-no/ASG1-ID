@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script defer src="script.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="normalize.css" rel="stylesheet" type="normalize/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hubballi">
+</head>
+<body class="bodyform">
+
+    <!--Card-->
+    <div class="cardbg">
+        <button class="cross" onclick="goBack()">x</button> <!--x Button-->
+        <div class="cardinfo">
+            <h2>Get Notified When Product Release!</h2>
+
+            <!--Name & Email input-->
+            <form id="form">
+                <div class="card-input">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Name</label>
+                </div>
+
+                <div class ="card-input">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Email</label>
+                </div>
+
+                <!--Submit Button-->
+               <button class="button" type="submit">NOTIFY ME</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
