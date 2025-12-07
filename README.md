@@ -153,7 +153,7 @@ Acknowledgements
 1. https://www.pinterest.com/pin/2462974791941574/
 2. https://www.pinterest.com/pin/3870349674702365/
 
-Reference
+References
 - I have used the following sources for reference
   1. https://www.w3schools.com/
   2. https://www.geeksforgeeks.org/
