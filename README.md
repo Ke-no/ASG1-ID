@@ -55,7 +55,7 @@ Features Left to Implement
   ~ Figma is used for the creation of the wireframe.
 
 - Canva
-  ~ Creation of About Us mp4 video
+  ~ Creation of About Us mp4 video.
 
 # Testing
 1. Home:
@@ -67,7 +67,7 @@ Features Left to Implement
    - LIVE will bring you to the live page.
    - NEWS will bring you to the news page.
   
-   ii. Animation of the text should be moving endlessly.
+   ii. Animation of the text should be moving smoothly and endlessly.
 
    iii. Animation of the text for the singles, about us (not the information) and the products name should be moving with cursor blinking.
 
@@ -86,7 +86,7 @@ Features Left to Implement
    - LIVE will bring you to the live page.
    - NEWS will bring you to the news page.
   
-   ii. Animation of the text should be moving endlessly.
+   ii. Animation of the text should be moving smoothly and endlessly.
 
    iii.Animation of the text for the products name should be moving with cursor blinking.
 
@@ -103,7 +103,7 @@ Features Left to Implement
    - LIVE will bring you to the live page.
    - NEWS will bring you to the news page.
   
-   ii. Animation of the text should be moving endlessly.
+   ii. Animation of the text should be moving smoothly and endlessly.
 
    iii. Animation of the live description should be moving with cursor blinking.
 
@@ -120,7 +120,7 @@ Features Left to Implement
    - LIVE will bring you to the live page.
    - NEWS will bring you to the news page.
   
-   ii. Animation of the text should be moving endless.
+   ii. Animation of the text should be moving smoothly and endlessly.
 
    iii. Animation of the text for the date and name should be moving with cursor blinking.
 
